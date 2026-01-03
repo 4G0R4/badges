@@ -20,7 +20,7 @@ export default function Home() {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Badges</title>
+        <title>SN Badges</title>
       </Helmet>
       <Layout>
         <SignUp />
