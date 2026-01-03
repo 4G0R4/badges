@@ -26,9 +26,6 @@ export default function Login() {
       <Button mr={2} onClick={logOut}>
         Log out
       </Button>
-      <!-- Link to="/new">
-        <ActionButton mr={2}>New</ActionButton>
-      </Link -->
       <User size={["sm", "sm", "md"]} showUsername={false} pubkey={user} />
     </Flex>
   ) : (
