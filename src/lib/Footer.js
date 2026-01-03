@@ -12,19 +12,25 @@ export default function Footer() {
       as="footer"
     >
       <Text textAlign="center" fontSize="sm">
-        Made with 💜 by{" "}
+        Read{" "}
         <Link
           color={highlight}
-          href="/p/1bc70a0148b3f316da33fe3c89f23e3e71ac4ff998027ec712b905cd24f6a411"
+          href="https://stacker.news/items/711428/r/AGORA"
         >
-          Karnage
+          more
+        </Link>{" "} or get your{" "}
+        <Link
+          color={highlight}
+          href="https://swag.btc.pub/tag/stickers/"
+        >
+          Sticky Stickers
         </Link>{" "}
         &{" "}
         <Link
           color={highlight}
-          href="/p/7fa56f5d6962ab1e3cd424e758c3002b8665f7b0d8dcee9fe9e288d7751ac194"
+          href="https://swag.btc.pub/tag/pins"
         >
-          verbiricha
+          Pinny Pins
         </Link>
       </Text>
     </Flex>
