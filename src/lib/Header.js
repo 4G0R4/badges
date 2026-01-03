@@ -13,7 +13,7 @@ export default function Header() {
       height="80px"
     >
       <Link to="/">
-        <Heading as="h1">Badges</Heading>
+        <Heading as="h1">SN Badges</Heading>
       </Link>
       <Login />
     </Flex>
